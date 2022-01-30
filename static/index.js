@@ -1,4 +1,4 @@
-(function(w) {
+﻿(function(w) {
     let isDesktop = !navigator['userAgent'].match(/(ipad|iphone|ipod|android|windows phone)/i);
     let fontunit = isDesktop ? 20 : ((window.innerWidth > window.innerHeight ? window.innerHeight : window.innerWidth) / 320) * 10;
     document.write('<style type="text/css">' +
@@ -348,11 +348,11 @@
             return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
         }
         SubmitResults();
-        if (score <= 49) return '逊呐';
-        if (score <= 99) return '哼哼哼';
+        if (score <= 49) return '菜啊';
+        if (score <= 99) return '禾草';
         if (score <= 149) return '你是一个一个一个';
         if (score <= 199) return '哼哼哼啊啊啊啊啊';
-        return '都撅烂了罢（恼';
+        return '小秦我爱你（诶';
     }
 
     w.toStr = function(obj) {
