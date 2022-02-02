@@ -15,6 +15,8 @@
 原作者嫌这玩意太臭了删了。
 所以找不到了诶
 
+当然你也可以去找恰小鹿乃的版本
+
 ## 宣传
 你爱我，我爱你，小秦哼啊甜蜜蜜
 ->https://dreamskycx.github.io/RapeSenpai/index.html
