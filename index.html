@@ -13,7 +13,22 @@
     <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
     <script src="https://passport.cnblogs.com/scripts/jsencrypt.min.js"></script>
     <script src="./static/index.js"></script>
+  <script>
+   (function(w, d, s, q, i) {
+   w[q] = w[q] || [];
+   var f = d.getElementsByTagName(s)[0],j = d.createElement(s);
+   j.async = true;
+   j.id = 'beacon-aplus';
+   j.src = 'https://d.alicdn.com/alilog/mlog/aplus/' + i + '.js';
+   f.parentNode.insertBefore(j, f);
+  })(window, document, 'script', 'aplus_queue', '203467608');
+    aplus_queue.push({
+      action: 'aplus.setMetaInfo',
+      arguments: ['appKey', '62007e7ae014255fcb124f79']
+    });
+  </script>
 </head>
+
 
 <body onLoad="init()" oncontextmenu=self.event.returnValue=false>
     <div id="GameScoreLayer" class="BBOX SHADE bgc1" style="display:none;">
